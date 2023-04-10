@@ -1,5 +1,20 @@
 # ule
 
+## Baseline Scores
+
+Evaluation results of our PLMs and other baselines on KLUE benchmark. **Bold** shows the best performance across the models, and _Italic_ indicates the best performance among `BASE` models.
+
+
+| Model                    | TC    | STS   |       | NLI   | NER    |        | RE         |       | DP    |       | MRC   |       | DST   |       |
+|--------------------------|-------|-------|-------|-------|--------|--------|------------|-------|-------|-------|-------|-------|-------|-------|
+|                          | F1    | Pearsons' r | F1    | ACC   | entity F1 | char F1 | F1 | AUPRC | UAS   | LAS   | EM    | ROUGE |
+| **koELECTRA-base** | 84.59 | _92.46_ | _84.84_ | _85.63_ | **_86.11_** | _92.56_ | 62.85 | 58.94 | 92.90 | 87.77 | 59.82 | 66.05 | 41.58 | 89.60 |
+||
+| **KLUE-RoBERTa-small** | 84.98 | 91.54 | 85.16 | 79.33 | 83.65 | 91.14 | 60.89 | 58.96 | 90.04 | 88.14 | 57.32 | 62.70 | 46.62 | 91.44 |
+| **KLUE-RoBERTa-base** | 85.07 | 92.50 | 85.40 | 84.83 | 84.60 | 91.44 | _67.65_ | _68.55_ | _93.04_ | _88.32_ | _68.67_ | _73.98_ | _47.49_ | _91.64_ | 
+| **KLUE-RoBERTa-large** | 85.69 | **93.35** | **86.63** | **89.17** | 85.00 | 91.86 | **71.13** | **72.98** | **93.48** | 88.36 | **75.58** | **80.59** | **50.22** | **92.23** |
+
+
 
 # KLUE: Korean Language Understanding Evaluation
 
